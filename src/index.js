@@ -21,7 +21,7 @@ wp.blocks.registerBlockType(
                     <InspectorControls>
                         <PanelBody title="Settings" initialOpen={true}>
                             <SelectControl
-                                label="Size"
+                                label="Select Visual Component"
                                 value={ props.attributes.postType }
                                 options={ [
                                     { label: 'Posts', value: 'posts' },
